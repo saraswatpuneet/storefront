@@ -1,0 +1,59 @@
+.homeContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 2%; */
+}
+
+.comingsoon {
+  font-size: 3em;
+}
+
+.emailAndButtonContainer {
+  width: 25em;
+  border-radius: 5px;
+  background-color: #141313;
+  display: flex;
+  color: white;
+}
+
+.emailInput {
+  width: 100%;
+  height: 3em;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  color: white;
+  padding-left: 1em;
+}
+
+.notifyButton {
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 0.5em;
+  border: none;
+  width: 10em;
+  cursor: pointer;
+}
+
+.notifyButton:hover {
+  background: #1673c5;
+}
+
+@media screen and (max-width: 768px) {
+  .homeContainer {
+    margin-top: 10%;
+  }
+
+  .comingsoon {
+    font-size: 2em;
+  }
+
+  .emailAndButtonContainer {
+    width: 20em;
+  }
+}

@@ -1,0 +1,44 @@
+.headerContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerQuote {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.logoImage {
+  width: 30%;
+  margin-top: 3%;
+}
+
+.headerSupport {
+  width: 65em;
+}
+
+@media screen and (max-width: 768px) {
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoImage {
+    width: 100%;
+  }
+
+  .headerQuote {
+    font-size: 1em;
+    width: 15em;
+  }
+
+  .headerSupport {
+    font-size: 1em;
+    width: 20em;
+  }
+}
